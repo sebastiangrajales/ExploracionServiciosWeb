@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WebAppiExploracionConexion-Web.config Connection String" description="WebAppiExploracionConexion Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Server=tcp:softman1.database.windows.net,1433;Initial Catalog=baseexploracion;Persist Security Info=False;User ID=softman;Password=Manizales2019;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Daniela\\source\\repos\\WebAppiExploracion\\WebAppiExploracion\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WebAppiExploracionConexion']/@connectionString" />
+  </parameter>
+</parameters>
